@@ -39,6 +39,6 @@ try {
 	const decodedValue = getCookieValue('my_encoded_cookie');
 	console.log('Decoded value:', decodedValue);
 } catch (error) {
+  // Handle the error appropriately (e.g., use the encoded value or a default)
 	console.error(error);
-	// Handle the error appropriately (e.g., use the encoded value or a default)
 }
