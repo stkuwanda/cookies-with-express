@@ -24,7 +24,6 @@ app.use(
 	bodyParserMiddleware,
 	jsonParserMiddleware,
 	cookieParserMiddleware,
-  setCookieMiddleware,
 	serveStaticFilesMiddleware,
   routes
 );
