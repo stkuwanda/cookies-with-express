@@ -21,11 +21,11 @@ const app = express();
 
 app.use(
 	loggerMiddleware,
-  setCookieMiddleware,
-	serveStaticFilesMiddleware,
 	bodyParserMiddleware,
 	jsonParserMiddleware,
 	cookieParserMiddleware,
+  setCookieMiddleware,
+	serveStaticFilesMiddleware,
   routes
 );
 
